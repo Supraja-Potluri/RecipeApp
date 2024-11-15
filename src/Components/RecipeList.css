@@ -1,0 +1,39 @@
+/* src/Components/RecipeList.css */
+
+/* src/Components/RecipeList.css */
+
+.recipe-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 20px;
+    margin: 20px auto; /* Center the grid */
+    max-width: 1200px; /* Limit max width */
+    padding: 20px;
+  }
+  
+  
+  .recipe-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .recipe-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .recipe-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .recipe-card h3 {
+    padding: 10px;
+    font-size: 1.1em;
+    text-align: center;
+  }
+  

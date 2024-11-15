@@ -1,0 +1,46 @@
+/* src/components/SearchBar.css */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    border-radius: 20px; /* Rounded edges */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #ffffff; /* White background */
+    padding: 10px 20px; /* Padding around the input */
+    transition: box-shadow 0.3s; /* Transition effect */
+  }
+  
+  .search-bar:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+  }
+  
+  .search-input {
+    border: none; /* No border */
+    outline: none; /* Remove outline */
+    flex: 1; /* Take available space */
+    font-size: 1rem; /* Font size */
+    padding: 10px; /* Padding inside the input */
+    border-radius: 20px; /* Rounded edges for input */
+    margin-right: 10px; /* Space between input and button */
+  }
+  
+  .search-input::placeholder {
+    color: #888; /* Placeholder color */
+  }
+  
+  .search-button {
+    background-color: #ff5722; /* Button color */
+    color: #ffffff; /* Button text color */
+    border: none; /* No border */
+    border-radius: 20px; /* Rounded edges */
+    padding: 10px 20px; /* Padding */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Transition effect */
+  }
+  
+  .search-button:hover {
+    background-color: #e64a19; /* Darker shade on hover */
+  }
+  
